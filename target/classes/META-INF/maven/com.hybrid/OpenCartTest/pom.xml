@@ -9,6 +9,8 @@
 	<properties>
 		<aspectj.version>1.9.19</aspectj.version>
 		<allure.version>2.24.0</allure.version>
+		<allure.results.directory>allure-results</allure.results.directory>
+		<allure.report.directory>allure-report</allure.report.directory>
 	</properties>
 	<dependencies>
 		<!--
@@ -104,28 +106,42 @@
 
 	</dependencies>
 	<build>
-		<pluginManagement>
+		<plugins>
 			<!-- Surefire Plugin to run TestNG -->
-			<plugins>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-surefire-plugin</artifactId>
-					<version>3.0.0</version>
-					<configuration>
-						<suiteXmlFiles>
-							<suiteXmlFile>grouping.xml</suiteXmlFile>
-						</suiteXmlFiles>
-					</configuration>
-				</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>grouping.xml</suiteXmlFile>
+					</suiteXmlFiles>
+					<systemPropertyVariables>
+						<allure.results.directory>allure-results</allure.results.directory>
+					</systemPropertyVariables>
+				</configuration>
+			</plugin>
 
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.14.0</version>
-				</plugin>
-			</plugins>
-		</pluginManagement>
+			<!-- Compiler Plugin (optional but recommended) -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.14.0</version>
+				<configuration>
+					<source>17</source> <!-- change as per your JDK -->
+					<target>17</target>
+				</configuration>
+			</plugin>
+
+			<!-- Allure Maven Plugin -->
+			<plugin>
+				<groupId>io.qameta.allure</groupId>
+				<artifactId>allure-maven</artifactId>
+				<version>2.11.2</version>
+			</plugin>
+		</plugins>
 	</build>
+
 </project>
 
 
