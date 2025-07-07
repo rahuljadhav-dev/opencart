@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" thread-count="5">
+	<!-- <test name="test1"> <parameter name="os" value="Windows"/> <parameter 
+		name="browser" value="Chrome"/> <classes> <class name="testCases.TC001_AccountRegistrationTest"/> 
+		</classes> </test> -->
+
+	<test name="Registration Test">
+		<parameter name="os" value="Windows" />
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="testCases.TC001_AccountRegistrationTest" />
+		</classes>
+	</test>
+
+	<test name="Login Test">
+		<parameter name="os" value="Windows" />
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="testCases.TC002_LoginTest" />
+		</classes>
+	</test>
+
+	<test name="Data Driven Test">
+		<parameter name="os" value="Windows" />
+		<parameter name="browser" value="Edge" />
+		<classes>
+			<class name="testCases.TC003_DataDrivenTest" />
+		</classes>
+	</test>
+</suite>
