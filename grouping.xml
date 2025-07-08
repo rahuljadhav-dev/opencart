@@ -9,7 +9,7 @@
 	</groups>
 	<listeners>
 		<listener class-name="utilities.ExtentReportUtility" />
-		<listener class-name="io.qameta.allure.testng.AllureTestNg" />
+		<listener class-name="utilities.AllureTestListener" />
 	</listeners>
 
 	<test name="Test Chrome">

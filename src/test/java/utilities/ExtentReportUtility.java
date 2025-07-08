@@ -85,21 +85,19 @@ public class ExtentReportUtility implements ITestListener{
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-	    extentTest = extentReports.createTest(result.getTestClass().getName());
-	    extentTest.assignCategory(result.getMethod().getGroups());
+		extentTest = extentReports.createTest(result.getTestClass().getName());
+		extentTest.assignCategory(result.getMethod().getGroups());
 
-	    extentTest.log(Status.FAIL, result.getName() + " Got Failed...");
-	    extentTest.log(Status.INFO, result.getThrowable().getMessage());
+		extentTest.log(Status.FAIL, result.getName() + " Got Failed...");
+		extentTest.log(Status.INFO, result.getThrowable().getMessage());
 
-	    try {
-	        String ssPath = BaseClass.captureScreen(result.getName());
-	        extentTest.addScreenCaptureFromPath(ssPath);
+		try {
+			String ssPath = BaseClass.captureScreen(result.getName());
+			extentTest.addScreenCaptureFromPath(ssPath);
 
-	        new BaseClass().attachScreenshotToAllure(); 
-
-	    } catch (Exception e) {
-	        e.printStackTrace();
-	    }
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 
@@ -128,49 +126,49 @@ public class ExtentReportUtility implements ITestListener{
 		}
 
 		// Send report via email
-//		try {
-//			final String senderEmail = "rj101688@gmail.com"; // your email
-//			final String appPassword = "";     // your app password
-//			final String recipientEmail = "rahuljadhav.dev@gmail.com"; // receiver email
-//
-//			Properties props = new Properties();
-//			props.put("mail.smtp.host", "smtp.gmail.com");
-//			props.put("mail.smtp.port", "587");
-//			props.put("mail.smtp.auth", "true");
-//			props.put("mail.smtp.starttls.enable", "true");
-//
-//			Session session = Session.getInstance(props, new Authenticator() {
-//				protected PasswordAuthentication getPasswordAuthentication() {
-//					return new PasswordAuthentication(senderEmail, appPassword);
-//				}
-//			});
-//
-//			Message message = new MimeMessage(session);
-//			message.setFrom(new InternetAddress(senderEmail));
-//			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(recipientEmail));
-//			message.setSubject("Automation Test Report - Extent");
-//
-//			// Email Body
-//			BodyPart messageBodyPart = new MimeBodyPart();
-//			messageBodyPart.setContent("<h3>Hello,</h3><p>Test Execution Completed. Please find the attached Extent Report.</p>", "text/html");
-//
-//			// Attachment
-//			MimeBodyPart attachmentPart = new MimeBodyPart();
-//			attachmentPart.attachFile(report);
-//
-//			// Combine
-//			Multipart multipart = new MimeMultipart();
-//			multipart.addBodyPart(messageBodyPart);
-//			multipart.addBodyPart(attachmentPart);
-//			message.setContent(multipart);
-//
-//			// Send mail
-//			Transport.send(message);
-//			System.out.println("Test report emailed successfully!");
-//
-//		} catch (Exception e) {
-//			e.printStackTrace();
-//		}
+		//		try {
+		//			final String senderEmail = "rj101688@gmail.com"; // your email
+		//			final String appPassword = "";     // your app password
+		//			final String recipientEmail = "rahuljadhav.dev@gmail.com"; // receiver email
+		//
+		//			Properties props = new Properties();
+		//			props.put("mail.smtp.host", "smtp.gmail.com");
+		//			props.put("mail.smtp.port", "587");
+		//			props.put("mail.smtp.auth", "true");
+		//			props.put("mail.smtp.starttls.enable", "true");
+		//
+		//			Session session = Session.getInstance(props, new Authenticator() {
+		//				protected PasswordAuthentication getPasswordAuthentication() {
+		//					return new PasswordAuthentication(senderEmail, appPassword);
+		//				}
+		//			});
+		//
+		//			Message message = new MimeMessage(session);
+		//			message.setFrom(new InternetAddress(senderEmail));
+		//			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(recipientEmail));
+		//			message.setSubject("Automation Test Report - Extent");
+		//
+		//			// Email Body
+		//			BodyPart messageBodyPart = new MimeBodyPart();
+		//			messageBodyPart.setContent("<h3>Hello,</h3><p>Test Execution Completed. Please find the attached Extent Report.</p>", "text/html");
+		//
+		//			// Attachment
+		//			MimeBodyPart attachmentPart = new MimeBodyPart();
+		//			attachmentPart.attachFile(report);
+		//
+		//			// Combine
+		//			Multipart multipart = new MimeMultipart();
+		//			multipart.addBodyPart(messageBodyPart);
+		//			multipart.addBodyPart(attachmentPart);
+		//			message.setContent(multipart);
+		//
+		//			// Send mail
+		//			Transport.send(message);
+		//			System.out.println("Test report emailed successfully!");
+		//
+		//		} catch (Exception e) {
+		//			e.printStackTrace();
+		//		}
 	}
 
 

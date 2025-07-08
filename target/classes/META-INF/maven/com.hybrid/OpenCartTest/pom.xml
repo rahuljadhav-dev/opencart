@@ -114,7 +114,7 @@
 				<version>3.0.0</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>grouping.xml</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<systemPropertyVariables>
 						<allure.results.directory>allure-results</allure.results.directory>

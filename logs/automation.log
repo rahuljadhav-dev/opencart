@@ -1,0 +1,788 @@
+14:17:53.228 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Nishat\eclipse-workspace\opencart\grouping.xml"
+14:17:53.311 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Nishat\eclipse-workspace\opencart\grouping.xml] otherwise TestNG may fail or not work as expected.
+14:17:53.694 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+14:17:53.694 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+14:17:53.694 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+14:17:54.508 [main] INFO  testCases.TC001_AccountRegistrationTest - Running test on: chrome on OS: Windows
+14:18:00.765 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Test Case TC001_AccountRegistrationTest Started
+14:18:01.096 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On MyAccount
+14:18:02.045 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On Register
+14:18:03.444 [main] INFO  testCases.TC001_AccountRegistrationTest - Insert All The Fields
+14:18:04.911 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On Buttons
+14:18:04.987 [main] INFO  testCases.TC001_AccountRegistrationTest - Test Passed...
+14:18:04.987 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Test Case TC001_AccountRegistrationTest Ended***
+14:18:05.695 [main] INFO  testCases.TC002_LoginTest - Running test on: chrome on OS: Windows
+14:18:14.515 [main] INFO  testCases.TC002_LoginTest - ***TestCase TC002_LoginTest Started***
+14:18:14.720 [main] INFO  testCases.TC002_LoginTest - Click On MyAccount
+14:18:15.095 [main] INFO  testCases.TC002_LoginTest - Click On Login Button
+14:18:15.553 [main] INFO  testCases.TC002_LoginTest - Enter Email And Password
+14:18:15.720 [main] INFO  testCases.TC002_LoginTest - Press Login
+14:18:16.736 [main] INFO  testCases.TC002_LoginTest - ******TestCase TC002_LoginTest Ended******
+14:18:17.239 [main] INFO  testCases.TC003_DataDrivenTest - Running test on: chrome on OS: Windows
+14:18:25.704 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:18:25.926 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:18:26.401 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:18:26.830 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmpda@gmail.com/cpm6toX2
+14:18:27.840 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:18:27.903 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:18:28.701 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:18:28.701 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:18:28.745 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:18:29.003 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:18:29.525 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:18:30.201 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :qhxdn@gmail.com/NPTMNQ2h
+14:18:30.536 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:18:31.472 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:18:32.128 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:18:32.130 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:18:32.162 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:18:32.350 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:18:32.729 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:18:33.147 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmpda@gmail.com/HGkhhjdhsf
+14:18:34.109 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:18:42.574 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:18:42.686 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:18:43.138 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:18:43.670 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmphu8da@gmail.com/cpm6toX2
+14:18:43.813 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:18:52.304 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:18:52.448 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:18:52.921 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:18:53.259 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :hfdhdh@gmail.com/
+14:18:53.882 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:19:02.512 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:19:02.628 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:19:03.095 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:19:03.423 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :ijfdl@gmail.com/062MzVOu
+14:19:04.497 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:19:04.532 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:19:05.253 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:19:05.253 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:19:05.279 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:19:05.409 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:19:05.927 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:19:06.355 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :mnnul@gmail.com/tdQi4n0G
+14:19:07.278 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:19:15.696 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:19:15.834 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:19:16.280 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:19:16.759 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :pybrr@gmail.com/uQK6UmJz
+14:19:16.889 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:19:25.412 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:19:25.518 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:19:25.949 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:19:26.319 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :tjrnx@gmail.com/jokwfPF9
+14:19:27.261 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:19:35.662 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:19:35.824 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:19:36.270 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:19:36.693 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :zpeux@gmail.com/KOfHUcHk
+14:19:36.829 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:19:37.779 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:19:38.379 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:19:38.379 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:19:38.393 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:19:38.527 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:19:39.024 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:19:39.364 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :ralmh@gmail.com/6XwXJlnX
+14:19:40.294 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:19:48.626 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:19:48.733 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:19:49.048 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:19:49.369 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :mhyqj@gmail.com/tcSXNXF9
+14:19:50.292 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:19:58.765 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:19:58.890 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:19:59.351 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:19:59.874 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :vxwxw@gmail.com/epbtDte4
+14:19:59.992 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:20:01.017 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:20:01.592 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:20:01.592 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:20:01.602 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:20:01.742 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:20:02.371 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:20:02.860 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :lmwki@gmail.com/Ad7D6ZPI
+14:20:03.022 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:20:11.489 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:20:11.606 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:20:12.055 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:20:12.493 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :kxabd@gmail.com/JlOjzTql
+14:20:12.682 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:26:39.103 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Nishat\eclipse-workspace\opencart\grouping.xml"
+14:26:39.216 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Nishat\eclipse-workspace\opencart\grouping.xml] otherwise TestNG may fail or not work as expected.
+14:26:39.711 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+14:26:39.712 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+14:26:39.712 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+14:26:40.619 [main] INFO  testCases.TC001_AccountRegistrationTest - Running test on: chrome on OS: Windows
+14:26:47.355 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Test Case TC001_AccountRegistrationTest Started
+14:26:47.688 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On MyAccount
+14:26:48.381 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On Register
+14:26:49.524 [main] INFO  testCases.TC001_AccountRegistrationTest - Insert All The Fields
+14:26:51.533 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On Buttons
+14:26:51.615 [main] INFO  testCases.TC001_AccountRegistrationTest - Test Passed...
+14:26:51.616 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Test Case TC001_AccountRegistrationTest Ended***
+14:26:52.313 [main] INFO  testCases.TC002_LoginTest - Running test on: chrome on OS: Windows
+14:26:55.393 [main] INFO  testCases.TC002_LoginTest - ***TestCase TC002_LoginTest Started***
+14:26:55.627 [main] INFO  testCases.TC002_LoginTest - Click On MyAccount
+14:26:56.060 [main] INFO  testCases.TC002_LoginTest - Click On Login Button
+14:26:56.502 [main] INFO  testCases.TC002_LoginTest - Enter Email And Password
+14:26:56.631 [main] INFO  testCases.TC002_LoginTest - Press Login
+14:26:57.658 [main] INFO  testCases.TC002_LoginTest - ******TestCase TC002_LoginTest Ended******
+14:26:58.060 [main] INFO  testCases.TC003_DataDrivenTest - Running test on: chrome on OS: Windows
+14:27:09.867 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:27:10.094 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:27:10.698 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:27:11.081 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmpda@gmail.com/cpm6toX2
+14:27:11.286 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:27:12.124 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:27:12.823 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:27:12.823 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:27:12.850 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:27:12.990 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:27:13.477 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:27:13.852 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :qhxdn@gmail.com/NPTMNQ2h
+14:27:14.020 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:27:14.954 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:27:15.694 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:27:15.694 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:27:15.739 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:27:15.987 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:27:16.490 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:27:17.258 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmpda@gmail.com/HGkhhjdhsf
+14:27:17.402 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:27:25.816 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:27:25.965 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:27:26.449 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:27:26.793 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmphu8da@gmail.com/cpm6toX2
+14:27:26.958 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:27:35.402 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:27:35.550 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:27:35.985 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:27:36.284 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :hfdhdh@gmail.com/
+14:27:37.273 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:27:45.737 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:27:45.899 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:27:46.309 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:27:46.650 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :ijfdl@gmail.com/062MzVOu
+14:27:46.819 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:27:47.792 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:27:48.476 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:27:48.477 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:27:48.489 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:27:48.635 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:27:49.127 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:27:49.473 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :mnnul@gmail.com/tdQi4n0G
+14:27:51.219 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:27:59.442 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:27:59.522 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:27:59.826 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:28:00.007 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :pybrr@gmail.com/uQK6UmJz
+14:28:00.108 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:28:08.330 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:28:08.401 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:28:08.706 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:28:08.885 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :tjrnx@gmail.com/jokwfPF9
+14:28:08.951 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:28:17.180 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:28:17.270 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:28:17.587 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:28:17.756 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :zpeux@gmail.com/KOfHUcHk
+14:28:18.483 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:28:18.502 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:28:18.916 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:28:18.917 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:28:18.920 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:28:18.985 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:28:19.299 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:28:19.481 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :ralmh@gmail.com/6XwXJlnX
+14:28:19.542 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:28:28.462 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:28:28.537 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:28:28.885 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:28:29.058 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :mhyqj@gmail.com/tcSXNXF9
+14:28:29.124 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:28:37.423 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:28:37.505 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:28:37.807 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:28:37.968 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :vxwxw@gmail.com/epbtDte4
+14:28:38.033 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:28:38.739 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:28:39.135 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:28:39.135 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:28:39.142 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:28:39.207 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:28:39.484 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:28:39.640 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :lmwki@gmail.com/Ad7D6ZPI
+14:28:39.704 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:28:47.982 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:28:48.046 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:28:48.361 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:28:48.528 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :kxabd@gmail.com/JlOjzTql
+14:28:48.591 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:36:11.768 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Nishat\eclipse-workspace\opencart\grouping.xml"
+14:36:11.827 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Nishat\eclipse-workspace\opencart\grouping.xml] otherwise TestNG may fail or not work as expected.
+14:36:12.116 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+14:36:12.116 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+14:36:12.116 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+14:36:12.388 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Nishat\eclipse-workspace\opencart\grouping.xml
+
+14:36:12.697 [main] INFO  testCases.TC001_AccountRegistrationTest - Running test on: chrome on OS: Windows
+14:36:26.925 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Test Case TC001_AccountRegistrationTest Started
+14:36:27.049 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On MyAccount
+14:36:27.577 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On Register
+14:36:28.146 [main] INFO  testCases.TC001_AccountRegistrationTest - Insert All The Fields
+14:36:29.096 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On Buttons
+14:36:29.164 [main] INFO  testCases.TC001_AccountRegistrationTest - Test Passed...
+14:36:29.164 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Test Case TC001_AccountRegistrationTest Ended***
+14:36:29.612 [main] INFO  testCases.TC002_LoginTest - Running test on: chrome on OS: Windows
+14:36:37.600 [main] INFO  testCases.TC002_LoginTest - ***TestCase TC002_LoginTest Started***
+14:36:37.720 [main] INFO  testCases.TC002_LoginTest - Click On MyAccount
+14:36:38.091 [main] INFO  testCases.TC002_LoginTest - Click On Login Button
+14:36:38.358 [main] INFO  testCases.TC002_LoginTest - Enter Email And Password
+14:36:38.519 [main] INFO  testCases.TC002_LoginTest - Press Login
+14:36:39.246 [main] INFO  testCases.TC002_LoginTest - ******TestCase TC002_LoginTest Ended******
+14:36:39.613 [main] INFO  testCases.TC003_DataDrivenTest - Running test on: chrome on OS: Windows
+14:36:46.737 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:36:46.852 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:36:47.231 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:36:47.508 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmpda@gmail.com/cpm6toX2
+14:36:48.278 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:36:48.320 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:36:48.978 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:36:48.978 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:36:49.059 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:36:49.131 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:36:49.521 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:36:49.777 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :qhxdn@gmail.com/NPTMNQ2h
+14:36:49.929 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:36:50.634 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:36:51.147 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:36:51.147 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:36:51.165 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:36:51.242 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:36:51.564 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:36:51.975 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmpda@gmail.com/HGkhhjdhsf
+14:36:53.723 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:37:10.499 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:37:10.613 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:37:10.897 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:37:11.089 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmphu8da@gmail.com/cpm6toX2
+14:37:11.618 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:37:19.955 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:37:20.025 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:37:20.368 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:37:20.531 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :hfdhdh@gmail.com/
+14:37:21.126 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:37:29.413 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:37:29.478 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:37:29.758 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:37:29.956 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :ijfdl@gmail.com/062MzVOu
+14:37:30.640 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:37:30.674 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:37:31.061 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:37:31.061 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:37:31.074 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:37:31.138 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:37:31.424 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:37:31.639 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :mnnul@gmail.com/tdQi4n0G
+14:37:32.235 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:37:40.544 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:37:40.612 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:37:40.915 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:37:41.086 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :pybrr@gmail.com/uQK6UmJz
+14:37:41.148 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:37:49.952 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:37:50.019 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:37:50.328 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:37:50.530 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :tjrnx@gmail.com/jokwfPF9
+14:37:50.594 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:37:58.850 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:37:58.935 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:37:59.206 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:37:59.427 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :zpeux@gmail.com/KOfHUcHk
+14:38:00.252 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:38:00.282 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:38:00.687 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:38:00.687 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:38:00.706 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:38:00.773 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:38:01.059 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:38:01.246 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :ralmh@gmail.com/6XwXJlnX
+14:38:01.311 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:38:09.582 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:38:09.655 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:38:09.961 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:38:10.204 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :mhyqj@gmail.com/tcSXNXF9
+14:38:10.793 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:38:19.023 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:38:19.096 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:38:19.426 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:38:19.630 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :vxwxw@gmail.com/epbtDte4
+14:38:20.468 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:38:20.500 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:38:20.884 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:38:20.885 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:38:20.903 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:38:20.969 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:38:21.260 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:38:21.445 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :lmwki@gmail.com/Ad7D6ZPI
+14:38:21.512 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:38:30.287 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:38:30.358 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:38:30.708 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:38:30.887 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :kxabd@gmail.com/JlOjzTql
+14:38:30.956 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:49:39.470 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Nishat\eclipse-workspace\opencart\grouping.xml"
+14:49:39.534 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Nishat\eclipse-workspace\opencart\grouping.xml] otherwise TestNG may fail or not work as expected.
+14:49:39.854 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+14:49:39.854 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+14:49:39.855 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+14:49:40.388 [main] INFO  testCases.TC001_AccountRegistrationTest - Running test on: chrome on OS: Windows
+14:49:58.225 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Test Case TC001_AccountRegistrationTest Started
+14:49:58.388 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On MyAccount
+14:49:58.954 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On Register
+14:49:59.576 [main] INFO  testCases.TC001_AccountRegistrationTest - Insert All The Fields
+14:50:00.532 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On Buttons
+14:50:00.580 [main] INFO  testCases.TC001_AccountRegistrationTest - Test Passed...
+14:50:00.581 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Test Case TC001_AccountRegistrationTest Ended***
+14:50:01.113 [main] INFO  testCases.TC002_LoginTest - Running test on: chrome on OS: Windows
+14:50:09.160 [main] INFO  testCases.TC002_LoginTest - ***TestCase TC002_LoginTest Started***
+14:50:09.367 [main] INFO  testCases.TC002_LoginTest - Click On MyAccount
+14:50:09.725 [main] INFO  testCases.TC002_LoginTest - Click On Login Button
+14:50:09.977 [main] INFO  testCases.TC002_LoginTest - Enter Email And Password
+14:50:10.076 [main] INFO  testCases.TC002_LoginTest - Press Login
+14:50:10.876 [main] INFO  testCases.TC002_LoginTest - ******TestCase TC002_LoginTest Ended******
+14:50:11.228 [main] INFO  testCases.TC003_DataDrivenTest - Running test on: chrome on OS: Windows
+14:50:21.705 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:50:21.832 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:50:22.175 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:50:22.496 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmpda@gmail.com/cpm6toX2
+14:50:23.333 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:50:23.367 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:50:23.775 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:50:23.775 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:50:23.784 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:50:23.951 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:50:24.387 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:50:24.766 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :qhxdn@gmail.com/NPTMNQ2h
+14:50:25.661 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:50:25.720 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:50:26.139 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:50:26.139 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:50:26.152 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:50:26.221 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:50:26.558 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:50:26.733 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmpda@gmail.com/HGkhhjdhsf
+14:50:26.838 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:50:35.120 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:50:35.191 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:50:35.484 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:50:35.713 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmphu8da@gmail.com/cpm6toX2
+14:50:35.793 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:50:44.523 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:50:44.594 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:50:44.907 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:50:45.073 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :hfdhdh@gmail.com/
+14:50:45.140 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:50:53.415 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:50:53.485 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:50:53.785 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:50:53.961 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :ijfdl@gmail.com/062MzVOu
+14:50:54.027 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:50:54.707 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:50:55.076 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:50:55.076 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:50:55.083 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:50:55.147 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:50:55.425 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:50:55.598 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :mnnul@gmail.com/tdQi4n0G
+14:50:55.670 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:51:03.960 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:51:04.025 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:51:04.372 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:51:04.558 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :pybrr@gmail.com/uQK6UmJz
+14:51:05.102 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:51:13.422 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:51:13.482 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:51:13.849 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:51:14.015 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :tjrnx@gmail.com/jokwfPF9
+14:51:14.085 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:51:22.378 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:51:22.452 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:51:22.788 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:51:23.038 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :zpeux@gmail.com/KOfHUcHk
+14:51:23.118 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:51:23.781 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:51:24.181 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:51:24.181 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:51:24.188 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:51:24.249 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:51:24.554 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:51:24.754 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :ralmh@gmail.com/6XwXJlnX
+14:51:24.818 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:51:33.078 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:51:33.153 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:51:33.438 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:51:33.614 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :mhyqj@gmail.com/tcSXNXF9
+14:51:33.673 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:51:42.388 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:51:42.463 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:51:42.759 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:51:42.943 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :vxwxw@gmail.com/epbtDte4
+14:51:43.007 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:51:43.714 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+14:51:44.101 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:51:44.102 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+14:51:44.106 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:51:44.168 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:51:44.480 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:51:44.655 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :lmwki@gmail.com/Ad7D6ZPI
+14:51:44.723 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+14:51:53.526 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+14:51:53.597 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+14:51:53.876 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+14:51:54.060 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :kxabd@gmail.com/JlOjzTql
+14:51:54.128 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:09:59.879 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Nishat\eclipse-workspace\opencart\grouping.xml"
+15:09:59.947 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Nishat\eclipse-workspace\opencart\grouping.xml] otherwise TestNG may fail or not work as expected.
+15:10:01.001 [main] INFO  testCases.TC001_AccountRegistrationTest - Running test on: chrome on OS: Windows
+15:10:07.149 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Test Case TC001_AccountRegistrationTest Started
+15:10:07.326 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On MyAccount
+15:10:07.850 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On Register
+15:10:08.511 [main] INFO  testCases.TC001_AccountRegistrationTest - Insert All The Fields
+15:10:09.776 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On Buttons
+15:10:09.807 [main] INFO  testCases.TC001_AccountRegistrationTest - Test Passed...
+15:10:09.807 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Test Case TC001_AccountRegistrationTest Ended***
+15:10:10.310 [main] INFO  testCases.TC002_LoginTest - Running test on: chrome on OS: Windows
+15:10:18.260 [main] INFO  testCases.TC002_LoginTest - ***TestCase TC002_LoginTest Started***
+15:10:18.390 [main] INFO  testCases.TC002_LoginTest - Click On MyAccount
+15:10:18.749 [main] INFO  testCases.TC002_LoginTest - Click On Login Button
+15:10:19.046 [main] INFO  testCases.TC002_LoginTest - Enter Email And Password
+15:10:20.161 [main] INFO  testCases.TC002_LoginTest - Press Login
+15:10:20.197 [main] INFO  testCases.TC002_LoginTest - ******TestCase TC002_LoginTest Ended******
+15:10:20.473 [main] INFO  testCases.TC003_DataDrivenTest - Running test on: chrome on OS: Windows
+15:10:30.623 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:10:30.721 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:10:31.255 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:10:31.595 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmpda@gmail.com/cpm6toX2
+15:10:31.789 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:10:32.533 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+15:10:33.040 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:10:33.040 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+15:10:33.050 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:10:33.195 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:10:33.571 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:10:34.015 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :qhxdn@gmail.com/NPTMNQ2h
+15:10:34.814 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:10:34.866 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+15:10:35.272 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:10:35.273 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+15:10:35.280 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:10:35.343 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:10:35.665 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:10:35.916 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmpda@gmail.com/HGkhhjdhsf
+15:10:36.679 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:10:44.977 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:10:45.052 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:10:45.385 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:10:45.561 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmphu8da@gmail.com/cpm6toX2
+15:10:46.132 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:10:54.457 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:10:54.527 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:10:54.818 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:10:54.966 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :hfdhdh@gmail.com/
+15:10:55.033 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:11:03.874 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:11:03.948 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:11:04.259 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:11:04.436 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :ijfdl@gmail.com/062MzVOu
+15:11:04.495 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:11:05.184 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+15:11:05.559 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:11:05.559 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+15:11:05.565 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:11:05.630 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:11:05.905 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:11:06.077 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :mnnul@gmail.com/tdQi4n0G
+15:11:06.140 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:11:14.426 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:11:14.493 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:11:14.784 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:11:14.975 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :pybrr@gmail.com/uQK6UmJz
+15:11:15.039 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:11:23.307 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:11:23.409 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:11:23.741 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:11:23.910 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :tjrnx@gmail.com/jokwfPF9
+15:11:23.976 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:11:32.236 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:11:32.309 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:11:32.629 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:11:32.811 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :zpeux@gmail.com/KOfHUcHk
+15:11:32.875 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:11:33.585 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+15:11:33.958 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:11:33.959 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+15:11:33.971 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:11:34.037 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:11:34.321 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:11:34.493 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :ralmh@gmail.com/6XwXJlnX
+15:11:34.558 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:11:42.854 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:11:42.926 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:11:43.257 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:11:43.443 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :mhyqj@gmail.com/tcSXNXF9
+15:11:43.504 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:11:51.780 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:11:51.852 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:11:52.429 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:11:52.621 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :vxwxw@gmail.com/epbtDte4
+15:11:53.300 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:11:53.340 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+15:11:53.727 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:11:53.728 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+15:11:53.737 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:11:53.796 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:11:54.105 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:11:54.309 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :lmwki@gmail.com/Ad7D6ZPI
+15:11:54.395 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:12:03.186 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:12:03.258 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:12:03.637 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:12:03.808 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :kxabd@gmail.com/JlOjzTql
+15:12:03.872 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:14:19.117 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Nishat\eclipse-workspace\opencart\testng.xml"
+15:14:19.189 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Nishat\eclipse-workspace\opencart\testng.xml] otherwise TestNG may fail or not work as expected.
+15:14:19.910 [main] INFO  testCases.TC001_AccountRegistrationTest - Running test on: Edge on OS: Windows
+15:14:50.730 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Test Case TC001_AccountRegistrationTest Started
+15:14:50.893 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On MyAccount
+15:14:53.344 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On Register
+15:14:53.970 [main] INFO  testCases.TC001_AccountRegistrationTest - Insert All The Fields
+15:14:56.366 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On Buttons
+15:14:56.397 [main] INFO  testCases.TC001_AccountRegistrationTest - Test Passed...
+15:14:56.397 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Test Case TC001_AccountRegistrationTest Ended***
+15:14:58.864 [main] INFO  testCases.TC002_LoginTest - Running test on: Edge on OS: Windows
+15:15:04.542 [main] INFO  testCases.TC002_LoginTest - ***TestCase TC002_LoginTest Started***
+15:15:04.700 [main] INFO  testCases.TC002_LoginTest - Click On MyAccount
+15:15:06.961 [main] INFO  testCases.TC002_LoginTest - Click On Login Button
+15:15:07.168 [main] INFO  testCases.TC002_LoginTest - Enter Email And Password
+15:15:09.432 [main] INFO  testCases.TC002_LoginTest - Press Login
+15:15:09.480 [main] INFO  testCases.TC002_LoginTest - ******TestCase TC002_LoginTest Ended******
+15:15:10.134 [main] INFO  testCases.TC003_DataDrivenTest - Running test on: Edge on OS: Windows
+15:15:33.171 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:15:33.261 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:15:35.480 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:15:35.731 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmpda@gmail.com/cpm6toX2
+15:15:37.977 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:15:38.044 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+15:15:40.242 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:15:40.243 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+15:15:40.254 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:15:40.356 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:15:40.660 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:15:40.831 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :qhxdn@gmail.com/NPTMNQ2h
+15:15:43.012 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:15:43.079 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+15:15:45.244 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:15:45.244 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+15:15:45.264 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:15:45.328 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:15:47.506 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:15:47.750 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmpda@gmail.com/HGkhhjdhsf
+15:15:47.867 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:15:58.196 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:15:58.273 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:16:00.433 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:16:00.630 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmphu8da@gmail.com/cpm6toX2
+15:16:00.707 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:16:11.065 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:16:11.130 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:16:13.299 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:16:13.448 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :hfdhdh@gmail.com/
+15:16:13.522 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:16:23.923 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:16:23.993 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:16:26.155 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:16:26.323 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :ijfdl@gmail.com/062MzVOu
+15:16:28.500 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:16:28.528 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+15:16:30.707 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:16:30.707 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+15:16:30.714 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:16:30.776 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:16:32.956 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:16:33.125 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :mnnul@gmail.com/tdQi4n0G
+15:16:35.307 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:16:43.628 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:16:43.702 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:16:45.869 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:16:46.040 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :pybrr@gmail.com/uQK6UmJz
+15:16:48.212 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:16:56.540 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:16:56.608 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:16:58.775 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:16:58.935 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :tjrnx@gmail.com/jokwfPF9
+15:17:01.117 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:17:09.395 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:17:09.473 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:17:11.646 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:17:11.816 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :zpeux@gmail.com/KOfHUcHk
+15:17:14.014 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:17:14.042 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+15:17:16.198 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:17:16.198 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+15:17:16.212 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:17:16.276 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:17:18.474 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:17:18.632 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :ralmh@gmail.com/6XwXJlnX
+15:17:18.711 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:17:29.044 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:17:29.122 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:17:31.299 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:17:31.479 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :mhyqj@gmail.com/tcSXNXF9
+15:17:31.562 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:17:41.934 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:17:42.012 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:17:44.196 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:17:44.359 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :vxwxw@gmail.com/epbtDte4
+15:17:44.440 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:17:46.588 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+15:17:48.764 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:17:48.764 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+15:17:48.776 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:17:48.839 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:17:51.007 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:17:51.173 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :lmwki@gmail.com/Ad7D6ZPI
+15:17:51.259 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:18:01.631 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:18:01.706 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:18:03.884 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:18:04.036 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :kxabd@gmail.com/JlOjzTql
+15:18:04.131 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:21:11.756 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Nishat\eclipse-workspace\opencart\testng.xml"
+15:21:11.836 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Nishat\eclipse-workspace\opencart\testng.xml] otherwise TestNG may fail or not work as expected.
+15:21:12.706 [main] INFO  testCases.TC001_AccountRegistrationTest - Running test on: Edge on OS: Windows
+15:21:17.242 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Test Case TC001_AccountRegistrationTest Started
+15:21:17.427 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On MyAccount
+15:21:17.992 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On Register
+15:21:18.790 [main] INFO  testCases.TC001_AccountRegistrationTest - Insert All The Fields
+15:21:21.211 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On Buttons
+15:21:21.244 [main] INFO  testCases.TC001_AccountRegistrationTest - Test Passed...
+15:21:21.245 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Test Case TC001_AccountRegistrationTest Ended***
+15:21:23.967 [main] INFO  testCases.TC002_LoginTest - Running test on: Edge on OS: Windows
+15:21:28.273 [main] INFO  testCases.TC002_LoginTest - ***TestCase TC002_LoginTest Started***
+15:21:28.388 [main] INFO  testCases.TC002_LoginTest - Click On MyAccount
+15:21:28.744 [main] INFO  testCases.TC002_LoginTest - Click On Login Button
+15:21:28.974 [main] INFO  testCases.TC002_LoginTest - Enter Email And Password
+15:21:31.182 [main] INFO  testCases.TC002_LoginTest - Press Login
+15:21:31.221 [main] INFO  testCases.TC002_LoginTest - ******TestCase TC002_LoginTest Ended******
+15:30:28.136 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Nishat\eclipse-workspace\opencart\testng.xml"
+15:30:28.202 [main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Users\Nishat\eclipse-workspace\opencart\testng.xml] otherwise TestNG may fail or not work as expected.
+15:30:29.002 [main] INFO  testCases.TC001_AccountRegistrationTest - Running test on: Edge on OS: Windows
+15:30:33.336 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Test Case TC001_AccountRegistrationTest Started
+15:30:33.482 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On MyAccount
+15:30:35.914 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On Register
+15:30:36.558 [main] INFO  testCases.TC001_AccountRegistrationTest - Insert All The Fields
+15:30:38.935 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked On Buttons
+15:30:39.026 [main] INFO  testCases.TC001_AccountRegistrationTest - Test Passed...
+15:30:39.026 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Test Case TC001_AccountRegistrationTest Ended***
+15:30:41.519 [main] INFO  testCases.TC002_LoginTest - Running test on: Edge on OS: Windows
+15:30:51.195 [main] INFO  testCases.TC002_LoginTest - ***TestCase TC002_LoginTest Started***
+15:30:51.359 [main] INFO  testCases.TC002_LoginTest - Click On MyAccount
+15:30:53.652 [main] INFO  testCases.TC002_LoginTest - Click On Login Button
+15:30:53.984 [main] INFO  testCases.TC002_LoginTest - Enter Email And Password
+15:30:55.020 [main] INFO  testCases.TC002_LoginTest - Press Login
+15:30:55.067 [main] INFO  testCases.TC002_LoginTest - ******TestCase TC002_LoginTest Ended******
+15:30:55.822 [main] INFO  testCases.TC003_DataDrivenTest - Running test on: Edge on OS: Windows
+15:31:07.426 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:31:07.564 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:31:09.849 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:31:10.091 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmpda@gmail.com/cpm6toX2
+15:31:12.284 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:31:12.348 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+15:31:14.541 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:31:14.546 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+15:31:14.559 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:31:14.634 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:31:16.839 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:31:17.101 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :qhxdn@gmail.com/NPTMNQ2h
+15:31:19.345 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:31:19.370 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+15:31:21.562 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:31:21.562 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+15:31:21.578 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:31:21.666 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:31:23.867 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:31:24.137 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmpda@gmail.com/HGkhhjdhsf
+15:31:24.215 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:31:32.556 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:31:32.629 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:31:34.834 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:31:35.032 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :dmphu8da@gmail.com/cpm6toX2
+15:31:35.107 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:31:45.434 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:31:45.512 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:31:47.701 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:31:47.847 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :hfdhdh@gmail.com/
+15:31:47.916 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:31:56.164 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:31:56.239 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:31:58.412 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:31:58.610 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :ijfdl@gmail.com/062MzVOu
+15:31:58.688 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:32:00.834 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+15:32:03.011 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:32:03.012 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+15:32:03.023 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:32:03.085 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:32:05.278 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:32:05.450 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :mnnul@gmail.com/tdQi4n0G
+15:32:05.528 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:32:15.916 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:32:15.993 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:32:18.180 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:32:18.347 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :pybrr@gmail.com/uQK6UmJz
+15:32:18.417 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:32:28.715 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:32:28.793 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:32:30.967 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:32:31.134 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :tjrnx@gmail.com/jokwfPF9
+15:32:33.331 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:32:41.607 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:32:41.680 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:32:43.859 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:32:44.033 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :zpeux@gmail.com/KOfHUcHk
+15:32:44.109 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:32:46.265 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+15:32:48.458 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:32:48.458 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+15:32:48.470 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:32:48.533 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:32:50.716 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:32:50.890 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :ralmh@gmail.com/6XwXJlnX
+15:32:50.970 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:33:01.309 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:33:01.387 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:33:03.576 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:33:03.741 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :mhyqj@gmail.com/tcSXNXF9
+15:33:05.922 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:33:14.250 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:33:14.330 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:33:16.509 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:33:16.682 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :vxwxw@gmail.com/epbtDte4
+15:33:18.880 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:33:18.904 [main] INFO  testCases.TC003_DataDrivenTest - With Valid Credentials
+15:33:21.076 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:33:21.077 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Ended***
+15:33:21.085 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:33:21.156 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:33:23.344 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:33:23.537 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :lmwki@gmail.com/Ad7D6ZPI
+15:33:25.733 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button
+15:33:34.034 [main] INFO  testCases.TC003_DataDrivenTest - ***TestCase TC003_DataDrivenTest Started***
+15:33:34.104 [main] INFO  testCases.TC003_DataDrivenTest - Click On MyAccount
+15:33:36.275 [main] INFO  testCases.TC003_DataDrivenTest - Click On Login Button
+15:33:36.444 [main] INFO  testCases.TC003_DataDrivenTest - Enter email and password :kxabd@gmail.com/JlOjzTql
+15:33:36.530 [main] INFO  testCases.TC003_DataDrivenTest - Click Login Button

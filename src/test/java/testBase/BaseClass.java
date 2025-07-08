@@ -157,28 +157,28 @@ public class BaseClass {
 	}
 
 	public static String captureScreen(String name) {
-		String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+	    String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+	    TakesScreenshot screenshot = (TakesScreenshot) driver;
+	    File src = screenshot.getScreenshotAs(OutputType.FILE);
 
-		TakesScreenshot screenshot=(TakesScreenshot) driver;
-		File file=screenshot.getScreenshotAs(OutputType.FILE);
+	    String relativePath = "screenshots/" + name + "_" + timestamp + ".png";
+	    String fullPath = System.getProperty("user.dir") + "/" + relativePath;
 
-		String targetFilePath=System.getProperty("user.dir") + "\\screenshots\\"+name+"_"+timestamp+".png";
-		File target=new File(targetFilePath);
+	    try {
+	        Files.createDirectories(Paths.get(System.getProperty("user.dir") + "/screenshots")); // make dir if not exist
+	        Files.copy(src.toPath(), Paths.get(fullPath));
+	    } catch (IOException e) {
+	        e.printStackTrace();
+	    }
 
-		file.renameTo(target);
-
-		return targetFilePath;
-
+	    return relativePath; 
 	}
 
-	@Attachment(value = "Failure Screenshot", type = "image/png")
-	public byte[] attachScreenshotToAllure() {
-		try {
-			return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-		} catch (Exception e) {
-			e.printStackTrace();
-			return new byte[0];
-		}
+
+
+	@Attachment(value = "Screenshot on Failure", type = "image/png")
+	public static byte[] saveScreenshot() {
+	    return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 	}
 }
 

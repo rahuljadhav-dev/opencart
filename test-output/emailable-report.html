@@ -8,15 +8,57 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Linux-Chrome</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">12,091</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Linux-Firefox</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">32,310</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">44,401</th><th colspan="2"></th></tr>
+<tr><th colspan="8">Groups Tests</th></tr>
+<tr><td><a href="#t0">Test Chrome</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">10</td><td class="num">147,125</td><td>master</td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Linux-Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC001_AccountRegistrationTest</td><td><a href="#m0">verifyAccountRegistration</a></td><td rowspan="1">1751778257094</td><td rowspan="1">6286</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Linux-Firefox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC001_AccountRegistrationTest</td><td><a href="#m1">verifyAccountRegistration</a></td><td rowspan="1">1751778275444</td><td rowspan="1">5888</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Groups Tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test Chrome &#8212; failed</th></tr><tr class="failedeven"><td rowspan="10">testCases.TC003_DataDrivenTest</td><td><a href="#m0">dataDrivenTest</a></td><td rowspan="10">1751965651065</td><td rowspan="10">9254</td></tr><tr class="failedeven"><td><a href="#m1">dataDrivenTest</a></td></tr><tr class="failedeven"><td><a href="#m2">dataDrivenTest</a></td></tr><tr class="failedeven"><td><a href="#m3">dataDrivenTest</a></td></tr><tr class="failedeven"><td><a href="#m4">dataDrivenTest</a></td></tr><tr class="failedeven"><td><a href="#m5">dataDrivenTest</a></td></tr><tr class="failedeven"><td><a href="#m6">dataDrivenTest</a></td></tr><tr class="failedeven"><td><a href="#m7">dataDrivenTest</a></td></tr><tr class="failedeven"><td><a href="#m8">dataDrivenTest</a></td></tr><tr class="failedeven"><td><a href="#m9">dataDrivenTest</a></td></tr><tr><th colspan="4">Test Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.TC001_AccountRegistrationTest</td><td><a href="#m10">verifyAccountRegistration</a></td><td rowspan="1">1751965586863</td><td rowspan="1">2301</td></tr><tr class="passedodd"><td rowspan="1">testCases.TC002_LoginTest</td><td><a href="#m11">loginTest</a></td><td rowspan="1">1751965597584</td><td rowspan="1">1664</td></tr><tr class="passedeven"><td rowspan="5">testCases.TC003_DataDrivenTest</td><td><a href="#m12">dataDrivenTest</a></td><td rowspan="5">1751965606727</td><td rowspan="5">2251</td></tr><tr class="passedeven"><td><a href="#m13">dataDrivenTest</a></td></tr><tr class="passedeven"><td><a href="#m14">dataDrivenTest</a></td></tr><tr class="passedeven"><td><a href="#m15">dataDrivenTest</a></td></tr><tr class="passedeven"><td><a href="#m16">dataDrivenTest</a></td></tr></tbody>
 </table>
-<h2>Linux-Chrome</h2><h3 id="m0">testCases.TC001_AccountRegistrationTest#verifyAccountRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Linux-Firefox</h2><h3 id="m1">testCases.TC001_AccountRegistrationTest#verifyAccountRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test Chrome</h2><h3 id="m0">testCases.TC003_DataDrivenTest#dataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>mnnul@gmail.com</td><td>tdQi4n0G</td><td>Invalid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.TC003_DataDrivenTest.dataDrivenTest(TC003_DataDrivenTest.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.TC003_DataDrivenTest#dataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>mhyqj@gmail.com</td><td>tcSXNXF9</td><td>Valid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.TC003_DataDrivenTest.dataDrivenTest(TC003_DataDrivenTest.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.TC003_DataDrivenTest#dataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>tjrnx@gmail.com</td><td>jokwfPF9</td><td>Valid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.TC003_DataDrivenTest.dataDrivenTest(TC003_DataDrivenTest.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.TC003_DataDrivenTest#dataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>hfdhdh@gmail.com</td><td></td><td>Invalid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.TC003_DataDrivenTest.dataDrivenTest(TC003_DataDrivenTest.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.TC003_DataDrivenTest#dataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>kxabd@gmail.com</td><td>JlOjzTql</td><td>Valid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.TC003_DataDrivenTest.dataDrivenTest(TC003_DataDrivenTest.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.TC003_DataDrivenTest#dataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>ralmh@gmail.com</td><td>6XwXJlnX</td><td>Valid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.TC003_DataDrivenTest.dataDrivenTest(TC003_DataDrivenTest.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testCases.TC003_DataDrivenTest#dataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>pybrr@gmail.com</td><td>uQK6UmJz</td><td>Valid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.TC003_DataDrivenTest.dataDrivenTest(TC003_DataDrivenTest.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testCases.TC003_DataDrivenTest#dataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>lmwki@gmail.com</td><td>Ad7D6ZPI</td><td>Valid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.TC003_DataDrivenTest.dataDrivenTest(TC003_DataDrivenTest.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testCases.TC003_DataDrivenTest#dataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>dmpda@gmail.com</td><td>HGkhhjdhsf</td><td>Invalid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.TC003_DataDrivenTest.dataDrivenTest(TC003_DataDrivenTest.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testCases.TC003_DataDrivenTest#dataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>dmphu8da@gmail.com</td><td>cpm6toX2</td><td>Invalid</td></tr><tr><th colspan="3">Exception</th></tr><tr><td colspan="3"><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.TC003_DataDrivenTest.dataDrivenTest(TC003_DataDrivenTest.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testCases.TC001_AccountRegistrationTest#verifyAccountRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testCases.TC002_LoginTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">testCases.TC003_DataDrivenTest#dataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>dmpda@gmail.com</td><td>cpm6toX2</td><td>Valid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">testCases.TC003_DataDrivenTest#dataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>zpeux@gmail.com</td><td>KOfHUcHk</td><td>Valid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">testCases.TC003_DataDrivenTest#dataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>vxwxw@gmail.com</td><td>epbtDte4</td><td>Valid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">testCases.TC003_DataDrivenTest#dataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>ijfdl@gmail.com</td><td>062MzVOu</td><td>Valid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">testCases.TC003_DataDrivenTest#dataDrivenTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>qhxdn@gmail.com</td><td>NPTMNQ2h</td><td>Valid</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

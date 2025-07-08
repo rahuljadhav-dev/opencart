@@ -3,7 +3,10 @@
 	<!-- <test name="test1"> <parameter name="os" value="Windows"/> <parameter 
 		name="browser" value="Chrome"/> <classes> <class name="testCases.TC001_AccountRegistrationTest"/> 
 		</classes> </test> -->
-
+	<listeners>
+		<listener class-name="utilities.ExtentReportUtility" />
+		<listener class-name="utilities.AllureTestListener" />
+	</listeners>
 	<test name="Registration Test">
 		<parameter name="os" value="Windows" />
 		<parameter name="browser" value="Edge" />

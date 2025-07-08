@@ -5,8 +5,8 @@
     <listener class-name="utilities.ExtentReportUtility"/>
     <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
   </listeners>
-  <test thread-count="5" name="Linux-Chrome(failed)">
-    <parameter name="os" value="Linux"/>
+  <test thread-count="5" name="Test Chrome(failed)">
+    <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
@@ -14,31 +14,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC001_AccountRegistrationTest">
+      <class name="testCases.TC003_DataDrivenTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="verifyAccountRegistration"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- testCases.TC001_AccountRegistrationTest -->
-    </classes>
-  </test> <!-- Linux-Chrome(failed) -->
-  <test thread-count="5" name="Linux-Firefox(failed)">
-    <parameter name="os" value="Linux"/>
-    <parameter name="browser" value="firefox"/>
-    <groups>
-      <run>
-        <include name="master"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="testCases.TC002_LoginTest">
-        <methods>
+          <include name="dataDrivenTest" invocation-numbers="2 3 4 6 7 8 10 11 13 14"/>
           <include name="tearDown"/>
           <include name="setup"/>
-          <include name="loginTest"/>
         </methods>
-      </class> <!-- testCases.TC002_LoginTest -->
+      </class> <!-- testCases.TC003_DataDrivenTest -->
     </classes>
-  </test> <!-- Linux-Firefox(failed) -->
+  </test> <!-- Test Chrome(failed) -->
 </suite> <!-- Failed suite [Groups Tests] -->
