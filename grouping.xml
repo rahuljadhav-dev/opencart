@@ -17,28 +17,10 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="testCases.TC001_AccountRegistrationTest" />
-			<!-- <class name="testCases.TC002_LoginTest" /> -->
-			<!-- <class name="testCases.TC003_DataDrivenTest" /> -->
-		</classes>
-	</test>
-
-	<test name="Test Firefox">
-		<parameter name="os" value="Windows" />
-		<parameter name="browser" value="firefox" />
-		<classes>
-			<!--<class name="testCases.TC001_AccountRegistrationTest" /> -->
 			<class name="testCases.TC002_LoginTest" />
-			<!-- <class name="testCases.TC003_DataDrivenTest" /> -->
-		</classes>
-	</test>
-	
-	<test name="Test Edge">
-		<parameter name="os" value="Windows" />
-		<parameter name="browser" value="edge" />
-		<classes>
-			<!--<class name="testCases.TC001_AccountRegistrationTest" /> -->
-			<!-- <class name="testCases.TC002_LoginTest" /> -->
 			<class name="testCases.TC003_DataDrivenTest" />
 		</classes>
 	</test>
+
+
 </suite>
