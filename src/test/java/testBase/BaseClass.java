@@ -36,7 +36,7 @@ import utilities.ExcelUtils;
 
 public class BaseClass {
 	public static WebDriver driver;
-	public Logger logger;//log4j
+	public static Logger logger = LogManager.getLogger(BaseClass.class);
 	public Properties properties;
 	public FileInputStream file;
 
@@ -48,75 +48,72 @@ public class BaseClass {
 
 	@BeforeClass(groups = {"sanity","regression","master"})
 	@Parameters({"os","browser"})
-	public void setup(String os,String br) throws IOException {
-		file=new FileInputStream("./src//test//resources//config.properties");
-		properties=new Properties();
-		properties.load(file);
+	public void launchApplication(String os, String br) {
+	    try {
+	        file = new FileInputStream("./src//test//resources//config.properties");
+	        properties = new Properties();
+	        properties.load(file);
 
-		logger=LogManager.getLogger(this.getClass());
-		logger.info("Running test on: " + br + " on OS: " + os);
+	        logger = LogManager.getLogger(this.getClass());
 
-		if(properties.getProperty("execution_env").equalsIgnoreCase("remote")) {
-			DesiredCapabilities capabilities=new DesiredCapabilities();
+	        if (properties.getProperty("execution_env").equalsIgnoreCase("remote")) {
+	            DesiredCapabilities capabilities = new DesiredCapabilities();
 
-			if(os.equalsIgnoreCase("windows")) {
-				capabilities.setPlatform(Platform.WIN11);
-			}else if(os.equalsIgnoreCase("mac")) {
-				capabilities.setPlatform(Platform.MAC);
+	            if (os.equalsIgnoreCase("windows")) {
+	                capabilities.setPlatform(Platform.WIN11);
+	            } else if (os.equalsIgnoreCase("mac")) {
+	                capabilities.setPlatform(Platform.MAC);
+	            } else if (os.equalsIgnoreCase("linux")) {
+	                capabilities.setPlatform(Platform.LINUX);
+	            } else {
+	                System.out.println("Not a valid platform");
+	                return;
+	            }
 
-			}else if(os.equalsIgnoreCase("linux")) {
-				capabilities.setPlatform(Platform.LINUX);
-			}
-			else {
-				System.out.println("Not a valid platform");
-				return;
-			}
+	            switch (br.toLowerCase()) {
+	                case "chrome":
+	                    capabilities.setBrowserName("chrome");
+	                    break;
+	                case "edge":
+	                    capabilities.setBrowserName(Browser.EDGE.toString());
+	                    break;
+	                case "firefox":
+	                    capabilities.setBrowserName("firefox");
+	                    break;
+	                default:
+	                    System.out.println("No valid browser found");
+	                    return;
+	            }
 
-			switch (br.toLowerCase()) {
-			case "chrome":
-				capabilities.setBrowserName("chrome");
-				break;
+	            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
 
-			case "edge":
-				capabilities.setBrowserName(Browser.EDGE.toString());
-				break;
-				
-			case "firefox":
-				capabilities.setBrowserName("firefox");
-				break;
+	        } else { // local
+	            switch (br.toLowerCase()) {
+	                case "chrome":
+	                    driver = new ChromeDriver();
+	                    break;
+	                case "edge":
+	                    driver = new EdgeDriver();
+	                    break;
+	                case "firefox":
+	                    driver = new FirefoxDriver();
+	                    break;
+	                default:
+	                    System.out.println("Invalid Browser Name...");
+	                    return;
+	            }
+	        }
 
-			default:
-				System.out.println("No valid browser found");
-				return;
-			}
+	        driver.manage().deleteAllCookies();
+	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
+	        driver.get(properties.getProperty("appUrl"));
+	        driver.manage().window().maximize();
 
-			driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);
-		}
-
-		if(properties.getProperty("execution_env").equalsIgnoreCase("local")) {
-			switch (br.toLowerCase()) {
-			case "chrome":
-				driver=new ChromeDriver();
-				break;
-
-			case "edge":
-				driver=new EdgeDriver();
-				break;
-
-			case "firefox":
-				driver=new FirefoxDriver();
-				break;
-
-			default:
-				System.out.println("Invalid Browser Name...");
-				return;
-			}
-		}
-
-		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(8));
-		driver.get(properties.getProperty("appUrl"));
-		driver.manage().window().maximize();
+	        logger.info("Application launched successfully on " + br + " (" + os + ")");
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	        throw new RuntimeException("Failed to launch application: " + e.getMessage());
+	    }
 	}
 
 	@AfterClass(groups = {"sanity","regression","master"})
@@ -157,28 +154,26 @@ public class BaseClass {
 	}
 
 	public static String captureScreen(String name) {
-	    String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-	    TakesScreenshot screenshot = (TakesScreenshot) driver;
-	    File src = screenshot.getScreenshotAs(OutputType.FILE);
+		String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+		TakesScreenshot screenshot = (TakesScreenshot) driver;
+		File src = screenshot.getScreenshotAs(OutputType.FILE);
 
-	    String relativePath = "screenshots/" + name + "_" + timestamp + ".png";
-	    String fullPath = System.getProperty("user.dir") + "/" + relativePath;
+		String relativePath = "screenshots/" + name + "_" + timestamp + ".png";
+		String fullPath = System.getProperty("user.dir") + "/" + relativePath;
 
-	    try {
-	        Files.createDirectories(Paths.get(System.getProperty("user.dir") + "/screenshots")); // make dir if not exist
-	        Files.copy(src.toPath(), Paths.get(fullPath));
-	    } catch (IOException e) {
-	        e.printStackTrace();
-	    }
+		try {
+			Files.createDirectories(Paths.get(System.getProperty("user.dir") + "/screenshots")); // make dir if not exist
+			Files.copy(src.toPath(), Paths.get(fullPath));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 
-	    return relativePath; 
+		return relativePath; 
 	}
-
-
 
 	@Attachment(value = "Screenshot on Failure", type = "image/png")
 	public static byte[] saveScreenshot() {
-	    return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+		return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
 	}
 }
 

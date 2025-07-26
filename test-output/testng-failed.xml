@@ -1,26 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Groups Tests]">
-  <listeners>
-    <listener class-name="utilities.ExtentReportUtility"/>
-    <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
-  </listeners>
-  <test thread-count="5" name="Test Chrome(failed)">
-    <parameter name="os" value="Windows"/>
-    <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="master"/>
-      </run>
-    </groups>
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC003_DataDrivenTest">
+      <class name="testrunners.TestRunner">
         <methods>
-          <include name="dataDrivenTest" invocation-numbers="2 3 4 6 7 8 10 11 13 14"/>
-          <include name="tearDown"/>
-          <include name="setup"/>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- testCases.TC003_DataDrivenTest -->
+      </class> <!-- testrunners.TestRunner -->
     </classes>
-  </test> <!-- Test Chrome(failed) -->
-</suite> <!-- Failed suite [Groups Tests] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

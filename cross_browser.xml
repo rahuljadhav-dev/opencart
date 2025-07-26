@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" thread-count="5" parallel="tests">
-  <test name="Linux-Chrome">
-  <parameter name="os" value="Linux"/>
-  <parameter name="browser" value="Chrome"/>
-    <classes>
-      <class name="testCases.TC001_AccountRegistrationTest"/>
-    </classes>
-  </test> <!-- Test -->
-  
-   <test name="Linux-Firefox">
-   <parameter name="os" value="Linux"/>
-  <parameter name="browser" value="Firefox"/>
-    <classes>
-      <class name="testCases.TC001_AccountRegistrationTest"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+	<test name="Linux-Chrome">
+		<parameter name="os" value="Linux" />
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="testCases.TC001_AccountRegistrationTest" />
+		</classes>
+	</test> <!-- -->
+
+	<!-- <test name="Linux-Firefox"> <parameter name="os" value="Linux"/> <parameter 
+		name="browser" value="Firefox"/> <classes> <class name="testCases.TC001_AccountRegistrationTest"/> 
+		</classes> </test> -->
+</suite>  

@@ -1,3 +1,4 @@
+utilities\AllureTestListener.class
 pageObjects\HomePage.class
 testBase\SeleniumGrid.class
 utilities\ExtentReportUtility.class
